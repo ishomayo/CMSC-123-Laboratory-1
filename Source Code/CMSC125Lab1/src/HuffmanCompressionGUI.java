@@ -82,16 +82,28 @@ public class HuffmanCompressionGUI {
                 if (result == JFileChooser.APPROVE_OPTION) {
                     selectedFile = fileChooser.getSelectedFile();
 
-                    ImageIcon originalIcon = new ImageIcon(selectedFile.getPath());
-                    Image resizedImage = originalIcon.getImage().getScaledInstance(
-                            imageLabel.getWidth(),
-                            imageLabel.getHeight(),
-                            Image.SCALE_SMOOTH
-                    );
-                    ImageIcon resizedIcon = new ImageIcon(resizedImage);
+		ImageIcon originalIcon = new ImageIcon(selectedFile.getPath());
+		Image originalImage = originalIcon.getImage();
 
-                    imageLabel.setIcon(resizedIcon);
-                    imageLabel.setText(null); 
+			int labelWidth = imageLabel.getWidth();
+			int labelHeight = imageLabel.getHeight();
+			int imageWidth = originalIcon.getIconWidth();
+			int imageHeight = originalIcon.getIconHeight();
+
+			// Compute new dimensions while maintaining aspect ratio
+			double widthRatio = (double) labelWidth / imageWidth;
+			double heightRatio = (double) labelHeight / imageHeight;
+			double scaleFactor = Math.min(widthRatio, heightRatio);
+
+			int newWidth = (int) (imageWidth * scaleFactor);
+			int newHeight = (int) (imageHeight * scaleFactor);
+
+			Image resizedImage = originalImage.getScaledInstance(newWidth, newHeight, Image.SCALE_SMOOTH);
+			ImageIcon resizedIcon = new ImageIcon(resizedImage);
+
+			imageLabel.setIcon(resizedIcon);
+			imageLabel.setText(null);
+
                 }
             }
         });
