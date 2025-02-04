@@ -4,11 +4,11 @@
 This includes the source code and technical report for the Huffmann Compression application.
 
 **Group Members**
-  1. Esguerra, Eugene B. @ishomayo
-  2. Naputo, Nikka @nikkanap
-  3. Orbase, Andrea Mae @andreaorbase
+  1. Esguerra, Eugene B. 
+  2. Naputo, Nikka 
+  3. Orbase, Andrea Mae 
 
-### How to Run
+# How to Run
 
 To run the application, simply edit the source folders for every ImageIcon present in the code. 
 
@@ -32,7 +32,7 @@ To edit the source folders for every ImageIcon, follow these instructions:
      ![image](https://github.com/user-attachments/assets/44c444c2-e456-49b1-aad2-008384a5bc37)
      <br/>
 
-### Technical Report
+# Technical Report
 
 The technical report for this project can be accessed through this link:<br/>
 [Technical Report: Huffman Image Compression](https://docs.google.com/document/d/1wldGxTVh9__eVJjn-BlNA20AXY1vezt3BiK0_hgjgxk/edit?usp=sharing)<br/>
