@@ -4,9 +4,9 @@
 This includes the source code and technical report for the Huffmann Compression application.
 
 **Group Members**
-  1. Esguerra, Eugene B.
-  2. Naputo, Nikka
-  3. Orbase, Andrea Mae
+  1. Esguerra, Eugene B. @ishomayo
+  2. Naputo, Nikka @nikkanap
+  3. Orbase, Andrea Mae @andreaorbase
 
 ### How to Run
 
@@ -35,7 +35,7 @@ To edit the source folders for every ImageIcon, follow these instructions:
 ### Technical Report
 
 The technical report for this project can be accessed through this link:<br/>
-[Link](https://docs.google.com/document/d/1wldGxTVh9__eVJjn-BlNA20AXY1vezt3BiK0_hgjgxk/edit?usp=sharing)<br/>
+[Technical Report: Huffman Image Compression](https://docs.google.com/document/d/1wldGxTVh9__eVJjn-BlNA20AXY1vezt3BiK0_hgjgxk/edit?usp=sharing)<br/>
 
 
 
