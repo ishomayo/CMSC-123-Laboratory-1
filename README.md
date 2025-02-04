@@ -20,12 +20,12 @@ To run the application, simply edit the source folders for every ImageIcon prese
 To edit the source folders for every ImageIcon, follow these instructions:
   1. Find the source folder in your project directory where the source code for the application is stored (find the folder named **src**).
   2. For every ImageIcon, select appropriate file directory for respective buttons (such as **trainButton.png** for the ImageIcon for the train button, etc.).
-  3. The following buttons have their respective files in the **src** folder:\
+  3. The following buttons have their respective files in the `src` folder:\
      a. Compress Button: compressButton.png\
      b. Open Compressed Button: openCompressed.png\
      c. Open New Button: openNew.png\
      d. Train Button: trainButton.png
-  4. The following files have their respective files in the **Source Code** folder:\
+  4. The following files have their respective files in the `Source Code` folder:\
      a. Background Photo: fullWindow.png\
      b. Image Preview Photo: imagePreview.png
   5. After finding the directories, copy and paste each for their respective ImageIcon in the lines of codes. For example:
