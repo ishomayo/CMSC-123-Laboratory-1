@@ -8,6 +8,8 @@ This includes the source code and technical report for the Huffmann Compression 
   2. Naputo, Nikka
   3. Orbase, Andrea Mae
 
+### How to Run
+
 To run the application, simply edit the source folders for every ImageIcon present in the code. 
 
 To edit the source folders for every ImageIcon, follow these instructions:
@@ -26,7 +28,11 @@ To edit the source folders for every ImageIcon, follow these instructions:
      ImageIcon trainIcon = new ImageIcon("C:\\Users\\Eugene\\Desktop\\Git\\hi\\CMSC-125-Laboratory-1\\Source Code\\CMSC125Lab1\\src\\trainButton.png");
      ```
   6. Now you can run the application. It must look like this:
-     ![image](https://github.com/user-attachments/assets/077e0083-b1ad-45b1-8ef5-ea02061b5034)
+     \
+     ![image](https://github.com/user-attachments/assets/44c444c2-e456-49b1-aad2-008384a5bc37)
+     \
+
+
 
   
 
