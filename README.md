@@ -1,12 +1,17 @@
 # CMSC-125-Laboratory-1
-## This is a repository for Laboratory 1 of the course CMSC 125 - P
+## This is a repository for Laboratory 1 of the course CMSC 123 - P
 
 This includes the source code and technical report for the Huffmann Compression application.
 
 **Group Members**
   1. Esguerra, Eugene B. 
   2. Naputo, Nikka 
-  3. Orbase, Andrea Mae 
+  3. Orbase, Andrea Mae
+
+# Technical Report
+
+The technical report for this project can be accessed through this link:<br/>
+[Technical Report: Huffman Image Compression](https://docs.google.com/document/d/1wldGxTVh9__eVJjn-BlNA20AXY1vezt3BiK0_hgjgxk/edit?usp=sharing)<br/>
 
 # How to Run
 
@@ -32,10 +37,6 @@ To edit the source folders for every ImageIcon, follow these instructions:
      ![image](https://github.com/user-attachments/assets/44c444c2-e456-49b1-aad2-008384a5bc37)
      <br/>
 
-# Technical Report
-
-The technical report for this project can be accessed through this link:<br/>
-[Technical Report: Huffman Image Compression](https://docs.google.com/document/d/1wldGxTVh9__eVJjn-BlNA20AXY1vezt3BiK0_hgjgxk/edit?usp=sharing)<br/>
 
 
 
