@@ -30,7 +30,12 @@ To edit the source folders for every ImageIcon, follow these instructions:
   6. Now you can run the application. It must look like this:<br/>
      
      ![image](https://github.com/user-attachments/assets/44c444c2-e456-49b1-aad2-008384a5bc37)
-     
+     <br/>
+
+### Technical Report
+
+The technical report for this project can be accessed through this link:<br/>
+[Link](https://docs.google.com/document/d/1wldGxTVh9__eVJjn-BlNA20AXY1vezt3BiK0_hgjgxk/edit?usp=sharing)<br/>
 
 
 
