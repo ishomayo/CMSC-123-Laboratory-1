@@ -27,10 +27,10 @@ To edit the source folders for every ImageIcon, follow these instructions:
      ```
      ImageIcon trainIcon = new ImageIcon("C:\\Users\\Eugene\\Desktop\\Git\\hi\\CMSC-125-Laboratory-1\\Source Code\\CMSC125Lab1\\src\\trainButton.png");
      ```
-  6. Now you can run the application. It must look like this:
-     \
+  6. Now you can run the application. It must look like this:<br/>
+     
      ![image](https://github.com/user-attachments/assets/44c444c2-e456-49b1-aad2-008384a5bc37)
-     \
+     
 
 
 
