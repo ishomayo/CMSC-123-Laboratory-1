@@ -17,13 +17,16 @@ To edit the source folders for every ImageIcon, follow these instructions:
      a. Compress Button: compressButton.png\
      b. Open Compressed Button: openCompressed.png\
      c. Open New Button: openNew.png\
-     d. Train Button: trainButton.png\
+     d. Train Button: trainButton.png
   4. The following files have their respective files in the **Source Code** folder:\
      a. Background Photo: fullWindow.png\
-     b. Image Preview Photo: imagePreview.png\
+     b. Image Preview Photo: imagePreview.png
   5. After finding the directories, copy and paste each for their respective ImageIcon in the lines of codes. For example:
      ```
      ImageIcon trainIcon = new ImageIcon("C:\\Users\\Eugene\\Desktop\\Git\\hi\\CMSC-125-Laboratory-1\\Source Code\\CMSC125Lab1\\src\\trainButton.png");
      ```
+  6. Now you can run the application. It must look like this:
+     ![image](https://github.com/user-attachments/assets/077e0083-b1ad-45b1-8ef5-ea02061b5034)
+
   
 
