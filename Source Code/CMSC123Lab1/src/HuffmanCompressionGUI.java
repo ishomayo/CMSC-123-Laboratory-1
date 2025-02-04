@@ -199,10 +199,10 @@ public class HuffmanCompressionGUI {
 				
 				// Save huffman tree to a bin file
 				filename = selectedFile.getName().substring(0, selectedFile.getName().lastIndexOf("."));
-				saveHuffmanTree(root,  filename + "_huffmantree.bin");		
+				saveHuffmanTree(root,  filename + "_huffmantree.HUFF");		
 				
 				// Save compressed data to a bin file
-				File compressedFile = new File(filename + "_compressed.bin");
+				File compressedFile = new File(filename + "_compressed.DEW");
 				try(FileOutputStream fos = new FileOutputStream(compressedFile)){
 					int bitBuffer = 0, bitCount = 0;
 				    for (char bit : compressedImage.toString().toCharArray()) {
@@ -249,7 +249,7 @@ public class HuffmanCompressionGUI {
                 File compressedFile = fileChooser.getSelectedFile();
                 
                 // Load the huffman tree file
-                Node huffmanTreeRoot = loadHuffmanTree(filename + "_huffmantree.bin");
+                Node huffmanTreeRoot = loadHuffmanTree(filename + "_huffmantree.HUFF");
                 
                 FileInputStream fis;
                 StringBuilder compressedImage = new StringBuilder();
