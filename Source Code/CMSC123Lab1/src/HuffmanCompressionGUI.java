@@ -221,10 +221,11 @@ public class HuffmanCompressionGUI {
 				        }
 				    }
 				    
-				    if (bitCount <= 0) return;
-				    // Write any remaining bits
-				    bitBuffer <<= (8 - bitCount); // left shift by (8 - no. of bits)
-			        fos.write(bitBuffer); // write it to file
+				    if (bitCount > 0){
+				        // Write any remaining bits
+				        bitBuffer <<= (8 - bitCount); // left shift by (8 - no. of bits)
+			        	fos.write(bitBuffer); // write it to file
+				    }
 				    
 				} catch (FileNotFoundException e1) {
 					e1.printStackTrace();
